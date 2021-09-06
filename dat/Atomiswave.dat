@@ -1,82 +1,187 @@
 clrmamepro (
 	name "Atomiswave"
 	description "Atomiswave"
-	version 2021.7.9
+	version 2021.9.6
 	author "libretro"
 )
 
 game (
-	name "Metal Slug 6"
-	description "Metal Slug 6"
-	genre "Action"
-	rom ( name mslug6.zip size 131422139 crc 3582912721 md5 17b550ce0b58778d3ac304801be03768 sha1 637811d275a2716cd9abfe1d794bece650b65736 )
-)
-
-game (
-	name "The King of Fighters Neo Wave"
-	description "The King of Fighters Neo Wave"
-	genre "Fighting"
-	rom ( name kofnw.zip size 104068918 crc 973292961 md5 4be678e11cfd4d1ea55810f68be759d3 sha1 d6aa69d9699404e3a957bf20c3802819d218a50e )
-)
-
-game (
-	name "The King of Fighters XI"
-	description "The King of Fighters XI"
-	genre "Fighting"
-	rom ( name kofxi.zip size 233065041 crc 4241294549 md5 8b6197d7e98fcb2d3b8b1e93e4b5f010 sha1 b8fb6c684a8015b5612701feb8cd7e5d78987356 )
-)
-
-game (
-	name "Samurai Shodown VI"
-	description "Samurai Shodown VI"
-	genre "Fighting"
-	rom ( name samsptk.zip size 217388988 crc 812549695 md5 8602f266d7e1bbea9919147e8fd334aa sha1 ff39bc7ce61d382f1621a8a00e015575fc6af898 )
-)
-
-game (
-	name "The Rumble Fish"
-	description "The Rumble Fish"
-	genre "Fighting"
-	rom ( name rumblef.zip size 109652847 crc 3149726176 md5 380349bf04cf73ac2df9205f33bcc4a0 sha1 887be089acaa912fdde63665efb4304f00df8dfe )
-)
-
-game (
-	name "The Rumble Fish 2"
-	description "The Rumble Fish 2"
-	genre "Fighting"
-	rom ( name rumblef2.zip size 146628887 crc 810592589 md5 3573dedc836e7298d1dc9469841cd0bb sha1 3573dedc836e7298d1dc9469841cd0bb )
-)
-	
-game (
-	name "Guilty Gear X"
-	description "Guilty Gear X version 1.5"
-	genre "Fighting"
-	rom ( name ggx15.zip size 113569804 crc 670702955 md5 10ad393caf5f576b14c19f0a40bd846e sha1 25fb928d1cc3b97dc1cad5bc1c6e2d436aadd2d7 )
-)
-
-game (
-	name "Guilty Gear Isuka"
-	description "Guilty Gear Isuka"
-	genre "Fighting"
-	rom ( name ggisuka.zip size 131961595 crc 916373942 md5 98da57b41be6681632c615c0fda5160f sha1 1bf01b65f160fc9e042de9384d5222201f710c7a )
-)
-
-game (
-	name "Dolphin Blue"
+	name dolphin
 	description "Dolphin Blue"
 	genre "Run N Gun"
-	rom ( name dolphin.zip size 82591477 crc 3281495115 md5 4ad602cc746e02eb930ab476e02e218d sha1 7e4371ac0da046389584d3ea56a3d99b568dc528 )
+	rom ( name ax0401m01.ic11 size 16777216 crc 5e5dca57 md5 a401bc9b6051dd0d10c343418009c29d sha1 e0623c84f66cada37d4c9399a7a8fc6866933144 )
+	rom ( name ax0401p01.ic18 size 8388608 crc 195d6328 md5 21fb32279520a5f4077a19b2486ac8ca sha1 cf3b5699f81235919dd3b1974d2ecb0376cb4552 )
+	rom ( name ax0402m01.ic12 size 16777216 crc 77dd4771 md5 ff4e4dab69b1731a32c60293e89c9585 sha1 dcd23b8ddc82eab2f325266ffd7ed3fbc1bcdf71 )
+	rom ( name ax0403m01.ic13 size 16777216 crc 911d0674 md5 f5310c4040dc8c8156fd2460de7c9ac2 sha1 eec35badcfbfe412b7104a86c2111f5a1b5fb5cd )
+	rom ( name ax0404m01.ic14 size 16777216 crc f82a4ca3 md5 ff038d6862ed5eda244bf5a6705adaf1 sha1 da686d86e176a9f24874d2916b1932f03a99a52d )
+	rom ( name ax0405m01.ic15 size 16777216 crc b88298d7 md5 ad126d7349a8115b9a1c5db176d070fb sha1 490c3ec471018895b7268ee33498dddaccbbfd5a )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
 )
 
 game (
-	name "Neo Geo Battle Coliseum"
-	description "Neo Geo Battle Coliseum"
+	name ggisuka
+	description "Guilty Gear Isuka"
 	genre "Fighting"
-	rom ( name ngbc.zip size 218190674 crc 678071208 md5 81c0f660ed27707870134da144833d7c sha1 bcd8eee27af8eb9e9bef19632dc9f663027b311b )
+	rom ( name am3aht.u1 size 524288 crc c4a21dbf md5 6b71feb8a239ed3eab7f93e038b3bc92 sha1 3200fdf209f8a6c8c9acdb60a2bc1d70af28fc5b )
+	rom ( name ax1201m01.ic10 size 16777216 crc df96ce30 md5 d2c79f9cc2a6b0d57c74e966c2deea12 sha1 25a9f743b1c2b11896d0c7a2dc1c198fc977aaca )
+	rom ( name ax1201p01.ic18 size 8388608 crc 0a78d52c md5 c34b023f3df349152d5792384348988e sha1 e9006dc43cd11d5ba49a092a1dff31dc10700c28 )
+	rom ( name ax1202m01.ic11 size 16777216 crc dfc6fd67 md5 808fb1c02f022a50cf78844a790b176d sha1 f9d35b18a03d22f70feda42d314b0f9dd54eea55 )
+	rom ( name ax1203m01.ic12 size 16777216 crc bf623df9 md5 1ddc0b678452e04652429d640b351e20 sha1 8b9a8e8100ff6d2ce9a982ab8eb1d542f1c7af03 )
+	rom ( name ax1204m01.ic13 size 16777216 crc c80c3930 md5 72cd485c3bf51f11a866032be0726255 sha1 5c39fde36e2ebbfe72967d7d0202eb454a8d3bbe )
+	rom ( name ax1205m01.ic14 size 16777216 crc e99a269d md5 29cf48c31bfb1c0dce7053917c468788 sha1 a52148b82b0338b8bad8b52985302eaf81a4cfde )
+	rom ( name ax1206m01.ic15 size 16777216 crc 807ab795 md5 0250b706f955cdd81c4ba3a2f06c35a2 sha1 17c86b1a56333c05b68ff84f83e964d013c1819c )
+	rom ( name ax1207m01.ic16 size 16777216 crc 6636d1b8 md5 6a5e1717ea2e085e74db9acd1c2c0c91 sha1 9bd8fc114557f6fbe772f85eeb246f7336d4255e )
+	rom ( name ax1208m01.ic17 size 16777216 crc 38bda476 md5 8273c15a804b8a9c716b2071a57801c1 sha1 0234a6f5fbaf5e958b3ba0db311dff157f80addc )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
 )
 
 game (
-	name "Knights of Valour: The Seven Spirits"
+	name ggx15
+	description "Guilty Gear X version 1.5"
+	genre "Fighting"
+	rom ( name ax0801m01.ic11 size 16777216 crc 61879b2d md5 9b56bcf378aa62a0e5a779341ddab34e sha1 9592fbd979cef9d8f465cd92d0f00b9c13ecf7ba )
+	rom ( name ax0801p01.ic18 size 8388608 crc d920c6bb md5 58644f9689369ef00207deb6d4201d05 sha1 ab34bbef3c71396447bc5322d8e8786041fc832a )
+	rom ( name ax0802m01.ic12 size 16777216 crc c0ff124d md5 61c134d07b93d17aab4613912ee17ae5 sha1 dd403d10de2f097fbaa6b93bc311e2b9e893828d )
+	rom ( name ax0803m01.ic13 size 16777216 crc 4400c89a md5 bc683cadeaf25282e1cc4f78331715ba sha1 4e13536c01103ecfbfc9e3e33746ceae7a91a520 )
+	rom ( name ax0804m01.ic14 size 16777216 crc 70f58ab4 md5 ed9404f5cb1ea73e7ab0a4653836cc63 sha1 cd2def19bbad945c87567f8d28f3a2a179a7f7f6 )
+	rom ( name ax0805m01.ic15 size 16777216 crc 72740e45 md5 00e29ef46715d2fb3f13273599829d1d sha1 646eded89f10008c9176cd6772a8ac9d1bf4271a )
+	rom ( name ax0806m01.ic16 size 16777216 crc 3bf8ecba md5 72eb99701a8c1d5d8b3f40221b27bdcb sha1 43e7fbf21d8ee60bab72ce558640730fd9c3e3b8 )
+	rom ( name ax0807m01.ic17 size 16777216 crc e397dd79 md5 26a1f731452ecdc3f05bd87dcbb6db0f sha1 5fec32dc19dd71ef0d451f8058186f998015723b )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
+)
+
+game (
+	name kofnw
+	description "The King of Fighters Neo Wave"
+	genre "Fighting"
+	rom ( name ax2201en_p01.ic18 size 8388608 crc 27aab918 md5 f628e796953ece97ffe2b1ce4db6cd27 sha1 41c5ddd8bd4c91481750606ab44aa115b5fe01d0 )
+	rom ( name ax2201m01.ic11 size 16777216 crc 22ea665b md5 80b3d85961113a33f564a23af5bb94ad sha1 292c92c9ae43eea2d1c27cedfb89c3956b8dea32 )
+	rom ( name ax2202m01.ic12 size 16777216 crc 7fad1bea md5 3d0031c77b10d583b9b7cc16cd410848 sha1 89f3f88af48973a4685955d86ef97a1487b8e7a8 )
+	rom ( name ax2203m01.ic13 size 16777216 crc 78986ca4 md5 af03951c589d396c50ecf8847d9e3f07 sha1 5a6c8c12955573f33361d2c6f20f85de35ac7bae )
+	rom ( name ax2204m01.ic14 size 16777216 crc 6ffbeb04 md5 3689f99294ec45e10dd5705a73b89ba4 sha1 975062cf364589dbdd5c5cb5ca945f76d87fc120 )
+	rom ( name ax2205m01.ic15 size 16777216 crc 2851b791 md5 0e6027105110225bb7e5d04b2c477b28 sha1 566ef95ea066b7bf548986085670242be217befc )
+	rom ( name ax2206m01.ic16 size 16777216 crc e53eb965 md5 25bcf16708465b51dc67214f7b19ab3a sha1 f50cd53a5859f081d8a278d24a519c9d9b49ab96 )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
+)
+
+game (
+	name kofxi
+	description "The King of Fighters XI"
+	genre "Fighting"
+	rom ( name ax3201m01.mrom1 size 33554432 crc 7f9d6af9 md5 c9e59b03eafb1da2cc96d57f8c22ab64 sha1 001064ad1b8c3408efe799dc766c2728dc6512a9 )
+	rom ( name ax3201p01.fmem1 size 8388608 crc 6dbdd71b md5 36cde602c9bb8dc7b1e0749d663db8b9 sha1 cce3897b104f5d923d8136485fc80eb9717ff4b5 )
+	rom ( name ax3202m01.mrom2 size 33554432 crc 1ae40afa md5 ab3941b4ba3a142b6813c3386a69eb46 sha1 9ee7957c86cc3a71e6971ddcd906a82c5b1e16f1 )
+	rom ( name ax3203m01.mrom3 size 33554432 crc 8c5e3bfd md5 a29a3d8ea095a2e03da2511cd2a483d0 sha1 b5443e2a1b88642cc57c5287a3122376c2d48de9 )
+	rom ( name ax3204m01.mrom4 size 33554432 crc ba97f80c md5 595dafbfd8c7baac14b1caffd4915883 sha1 36f672fe833e13f0bab036b02c39123066327e20 )
+	rom ( name ax3205m01.mrom5 size 33554432 crc 3c747067 md5 70bf8d4c68d859bb20afa75011ab6f0f sha1 54b7ff73d618e2e4e40c125c6cfe99016e69ad1a )
+	rom ( name ax3206m01.mrom6 size 33554432 crc cb81e5f5 md5 a36ffa2e7f41a9a54f9b5a099e0e90d9 sha1 07faee02a58ac9c600ab3cdd525d22c16b35222d )
+	rom ( name ax3207m01.mrom7 size 33554432 crc 164f6329 md5 4cb6df02d22523830178bb85b42f7249 sha1 a72c8cbe4ac7b98edda3d4434f6c81a370b8c39b )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
+)
+
+game (
+	name kov7sprt
 	description "Knights of Valour: The Seven Spirits"
 	genre "Beat'em Up"
-	rom ( name kov7sprt.zip size 109190361 crc 889301951 md5 ad3c47ae35ef333569aa372dca04cbe3 sha1 396bbae310d6575cbd2ad3d943102d49041717fc )
+	rom ( name ax1301m01.ic11 size 16777216 crc 58ae7ca1 md5 3d1be831a49735200a188093c31a2565 sha1 e91975697b797ea05488ace649cbb9964b4cd500 )
+	rom ( name ax1301m02.ic12 size 16777216 crc 871ea03f md5 03207617d9061284bcae64de0cfb2b6a sha1 6806910832ca271a9240aca8e91279556e5b0cb7 )
+	rom ( name ax1301m03.ic13 size 16777216 crc abc328bc md5 07f72d0bf27e14eb2f16546aace1d583 sha1 d9271d4e5abe76d31de0f60a5c106260338d42e9 )
+	rom ( name ax1301m04.ic14 size 16777216 crc 25a176d1 md5 2dc4f5a3996f76d8cde99751239fc5a2 sha1 6d815bf6acb645fead060733660e24fb0d44282d )
+	rom ( name ax1301m05.ic15 size 16777216 crc e6573a93 md5 a5de7de9469b5c47b4939aa74789ba2b sha1 0666e52d0088263f28938e4c8aae201e604ec1f2 )
+	rom ( name ax1301m06.ic16 size 16777216 crc cb8cacb4 md5 cdae3a82a3ef1ed70f4f15c9faa3f241 sha1 5d008e8a934451b9bfa33fedfd492c86d9226ef5 )
+	rom ( name ax1301m07.ic17 size 16777216 crc 0ca92213 md5 e30ac08b9418c22de1a744b8b08ba658 sha1 115c50fa55e6de3439de23e74621695510c6a7ba )
+	rom ( name ax1301p01.ic18 size 8388608 crc 6833a334 md5 ec694a4a471c2aa195db5a9b67c74b37 sha1 646aaa578e09ad23bc9c7f4fbdfb3c1486916fd3 )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
+)
+
+game (
+	name mslug6
+	description "Metal Slug 6"
+	genre "Action"
+	rom ( name ax3001m01.mrom1 size 33554432 crc e56417ee md5 7467f89ffc07aaa5dcc0e74982b52b37 sha1 27692ad5c1093aff0973d2aafd01a5e30c7bfbbe )
+	rom ( name ax3001p01.fmem1 size 8388608 crc af67dbce md5 06d82c12c4da1783bbb5eb277f991e10 sha1 5aba108caf3e4ced6994bc26e752d4e225c231e8 )
+	rom ( name ax3002m01.mrom2 size 33554432 crc 1be3bbc1 md5 d6b10f737e9ce641ef5880983b86f903 sha1 d75ce5c855c9c4eeacdbf84d440c73a94de060fe )
+	rom ( name ax3003m01.mrom3 size 33554432 crc 4fe37370 md5 d225f5705c512db4551a58b917126212 sha1 85d51db94c3e34265e37b636d6545ed2801ba5a6 )
+	rom ( name ax3004m01.mrom4 size 33554432 crc 2f4c4c6f md5 7f5eb0fb11e181cd2997fdc363ad6d5d sha1 5815c28fdaf0429003986e725c0015fe4c08721f )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
+)
+
+game (
+	name ngbc
+	description "Neo Geo Battle Coliseum"
+	genre "Fighting"
+	rom ( name ax3301en_p01.fmem1 size 8388608 crc f7e24e67 md5 e20a93036fb8649c7a218cfa9615fc5b sha1 8eef26d44b294faa509304b1b04f4d801337bc99 )
+	rom ( name ax3301m01.mrom1 size 33554432 crc e6013de9 md5 39910bfd03d97461155a40f88bb5f606 sha1 ccbc7c2e76153348646d75938d5c008dc80df17d )
+	rom ( name ax3302m01.mrom2 size 33554432 crc f7cfef6c md5 fc638848a2918a8a8b1d2bfa2592bf05 sha1 c9e6231499a9c9c8650d9e61f34ff1fcce8d442c )
+	rom ( name ax3303m01.mrom3 size 33554432 crc 0cdf8647 md5 9a69ddd4e2e92ffce5633abe84ede76a sha1 0423f96842bef2c2ff454318dc6960b5052c0551 )
+	rom ( name ax3304m01.mrom4 size 33554432 crc 2f031db0 md5 232e61c7e77152cf5982ee535287dd0b sha1 3214735f04fadf160137f0585bfc1a27eeecfac6 )
+	rom ( name ax3305m01.mrom5 size 33554432 crc f6668aaa md5 df3d9ffb6bdfa9f20a055be2c01dc81f sha1 6a78f8f0c7d7a71854ff87329290d38970cfb476 )
+	rom ( name ax3306m01.mrom6 size 33554432 crc 5cf32fbd md5 8f3fc5cc0ffb076aba78c16932a053c4 sha1 b6ae0abe5791b3d6f8db07b8c8ca22219a153801 )
+	rom ( name ax3307m01.mrom7 size 33554432 crc 26d9da53 md5 5c21da53768c94a611d6241dbfa1db0b sha1 0015b4be670005a451274de68279b4302fc42a97 )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
+)
+
+game (
+	name rumblef
+	description "The Rumble Fish"
+	genre "Fighting"
+	rom ( name ax1801m01.ic11 size 16777216 crc c38aa61c md5 60b8c96a6b29c04fae4bf2af25c5db60 sha1 e2f688a0aa8b0119f5fd3d53c8904e035d43a4b1 )
+	rom ( name ax1801p01.ic18 size 8388608 crc 2f7fb163 md5 8d6621766e778da50e83ad9f4aa9b3c5 sha1 bf819d798d9a3a7bc754e111a3f53b9db6d6042a )
+	rom ( name ax1802m01.ic12 size 16777216 crc 72e0ebc8 md5 df8f311ba0ffc44cd1eb74bad09ddb6d sha1 e85300a405ea14c4c9d857eb9685c93faaca1d56 )
+	rom ( name ax1803m01.ic13 size 16777216 crc d0f59d98 md5 b11c1c128be71ee784132534b5e39009 sha1 b854796087e9f76a13a21da8249f7224e451e129 )
+	rom ( name ax1804m01.ic14 size 16777216 crc 15595cba md5 9c41e0e5827880986a38201fbff1f898 sha1 8dd06d1f986cd21a58d20b662b11ed7ba8a6ff7a )
+	rom ( name ax1805m01.ic15 size 16777216 crc 3d3f8e0d md5 8526545b396155698325b802bb17aff4 sha1 364a0bda890722b9fb72171f96c742b8f3fef23e )
+	rom ( name ax1806m01.ic16 size 16777216 crc ac2751bb md5 bbf3b7740bd728030a54f542d98a7213 sha1 5070fa12bf109ab87e8f7ea46ac4ae78a73105da )
+	rom ( name ax1807m01.ic17 size 16777216 crc 3b2fbdb0 md5 7c2b61543e479451a615e2cdc02b00e4 sha1 f9f7e06785d3a07282247aaedd9999aa7c2670b9 )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
+)
+
+game (
+	name rumblef2
+	description "The Rumble Fish 2"
+	genre "Fighting"
+	rom ( name ax3401m01.mrom1 size 33554432 crc 60894d4c md5 9267524776e9186532dff90b145ff132 sha1 5b21af3c7c82d4d64bfd8498c26283111ada1298 )
+	rom ( name ax3401p01.fmem1 size 8388608 crc a33601cf md5 0c0bddd3cf6865dfae5d21506aff7717 sha1 2dd60a9c3a2517f2257ab69288fa95645de133fa )
+	rom ( name ax3402m01.mrom2 size 33554432 crc e4224cc9 md5 b0e3211271774ad88e2baa094a81a448 sha1 dcab06fcf48cda286f93d2b37f03a83abf3230cb )
+	rom ( name ax3403m01.mrom3 size 33554432 crc 081c0edb md5 4fd2e9c79de6766fa77ba3f48bfe6410 sha1 63a3f1b5f9d7ca4367868c492236406f23996cc3 )
+	rom ( name ax3404m01.mrom4 size 33554432 crc a426b443 md5 89b7c1fd9ae699e0d887b5c0e2ae3fee sha1 617aab42e432a80b0663281fb7faa6c14ef4f149 )
+	rom ( name ax3405m01.mrom5 size 33554432 crc 4766ce56 md5 f06d137ce45b9d62aba8f04edfd2629e sha1 349b82013a75905ae5520b14a87702c9038a5def )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
+)
+
+game (
+	name samsptk
+	description "Samurai Shodown VI"
+	genre "Fighting"
+	rom ( name ax2901m01.mrom1 size 33554432 crc dbbbd90d md5 6ced5b287fe86f210fb7d911d7c35715 sha1 102ee0b249a3e0ca2f659b6c515816c522ad78d0 )
+	rom ( name ax2901p01.fmem1 size 8388608 crc 58e0030b md5 f30a528ffa1110175e19a2c4f87fe9f4 sha1 ed8a66833beeb56d83770123eff28df0f25221d1 )
+	rom ( name ax2902m01.mrom2 size 33554432 crc a3bd7890 md5 c29387ba868560d9a286fd617366623e sha1 9b8d934d6ebc3ef688cd8a6de47657a0663fea10 )
+	rom ( name ax2903m01.mrom3 size 33554432 crc 56f50fdd md5 af0ccd286d30ea5323e96cd46fd650ec sha1 8a5a4a99108c0279056998046c7b332e80121dee )
+	rom ( name ax2904m01.mrom4 size 33554432 crc 8a3ae175 md5 7c804bc49042ee8749c429ff376bf262 sha1 966f527a92e24c8eb770344697f2edf6140cf971 )
+	rom ( name ax2905m01.mrom5 size 33554432 crc 429877ba md5 e98722a10da8385776dbcd11fa3a15ca sha1 88e1f3bc682b18d331e328ef8754065109cf9bda )
+	rom ( name ax2906m01.mrom6 size 33554432 crc cb95298d md5 2e3123441a314506e7e24e20a288551f sha1 5fb5d5a0d6801df61101a1b23de0c14ff29ef654 )
+	rom ( name ax2907m01.mrom7 size 33554432 crc 48015081 md5 f2351736159e329d736fb8a4eb64ae63 sha1 3c0a0a6dc9ab7bf889579477699e612c3092f9bf )
+	rom ( name bios0.ic23 size 131072 crc 719b2b0b md5 a95530c35115323ce80d025a036ef5d5 sha1 b4c1a26bc8906d5275eb28c701dff2b9365bcdfa )
+	rom ( name bios1.ic23 size 131072 crc d3e80a9f md5 58db32d9cbd0975e6a677feafad28bb1 sha1 33024f9d51c04884c2b44ce146f340e7a857b959 )
+	rom ( name fpr-24363.ic48 size 524288 crc 82a105f0 md5 74cac999a87920494ac4296507574d81 sha1 5128fe2ddcced77332bdcab691c09958051fa564 )
+)
