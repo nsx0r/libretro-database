@@ -2,8 +2,8 @@ clrmamepro (
 	name "Nintendo - Super Nintendo Entertainment System"
 	description "Nintendo - Super Nintendo Entertainment System"
 	category "Standard DatFile"
-	version "20210910-224815"
-	date "10/09/2021"
+	version "20210913-215553"
+	date "13/09/2021"
 	author "aci68, alcoatjez, BigFred, Blank, C. V. Reynolds, chillerecke, coraz, DeadSkullzJr, DeriLoko3, einstein95, Fake Shemp, Gefflon, Hiccup, Jack, jimmsu, kazumi213, Madeline, Money_114, omonim2007, Powerpuff, PPLToast, rarenight, relax, Rifu, sCZther, SonGoku, Special T, Tauwasser, TeamEurope, Vigi, xuom2"
 	homepage "https://no-intro.org"
 	url "https://no-intro.org"
@@ -22911,4 +22911,3 @@ game (
 	description "Zootto Mahjong! (Japan) (Rev 1) (NP)"
 	rom ( name "Zootto Mahjong! (Japan) (Rev 1) (NP).sfc" size 2621440 crc 4833c585 md5 c61dfcd839b71b76d2fa773a9d519476 sha1 77a3a972a80246d09e935969fec70a90be82e933 )
 )
-
